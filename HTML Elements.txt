@@ -1,0 +1,28 @@
+/#####################################/
+document type declaration: <!DOCTYPE html>
+Element: Also called as Tag. 
+         It has Start tag and end tag
+         HTML elements can be nested (elements can contain elements)
+
+Empty HTML Elements: HTML elements with no content are called empty elements.
+		     Example: <br> is an empty element without a closing tag (the <br> tag defines a line break):
+			      <img> tag is empty, it contains attributes only, and does not have a closing tag.
+
+HTML links are defined with the <a> tag. The link address is specified in the href attribute
+HTML images are defined with the <img> tag. The filename of the image source is specified in the src attribute.
+/#####################################/
+
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+
+<h1> Hello, This is Ganesh     </h1>
+<p>  This is a <br> paragraph with a line break. </p>
+
+<a href="https://www.w3schools.com"> Link to w3schools </a>
+<img src="img_girl.jpg" width="100" height="150">
+
+<p style="color:red">This is a red paragraph.</p>
+
+</body>
+</html> 
